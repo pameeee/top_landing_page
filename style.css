@@ -36,9 +36,12 @@ header h1, ul, .information h3 {
 
 .information {
     background-color: rgb(255, 255, 195);
-    display: flex;
     flex: 1;
 }
+
+    .information .container {
+        display: flex;
+    }
 
 footer {
     background-color: rgb(175, 223, 175);
