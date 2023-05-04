@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffc8c8;
+    display: flex;
+    justify-content: space-between;
+}
+
+    nav a {
+        text-decoration: none;
+    }
+
+header h1, ul, .information h3 {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(255, 227, 176);
+    display: flex;
+    flex: 1;
+}
+
+    .header .headercontainer {
+        background-color: orange;
+    }
+
+    img {
+        height: 100%;
+    }
+
+.information {
+    background-color: rgb(255, 255, 195);
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(175, 223, 175);
+    margin-top: auto;
+}

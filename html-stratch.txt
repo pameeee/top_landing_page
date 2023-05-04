@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Simple Website</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Header Logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Header link 1</a></li>
+                    <li><a href="#">Header link 2</a></li>
+                    <li><a href="#">Header link 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header2">
+            <div class="headercontainer">Container 1</div>
+            <img
+                src="/images/top-landing-page.png"
+                alt="People studying English"
+            />
+        </div>
+        <footer>Copyright © The Odin Project 2021</footer>
+    </body>
+</html>
