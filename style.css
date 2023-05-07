@@ -10,10 +10,20 @@ header {
     background-color: #ffc8c8;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
     nav a {
         text-decoration: none;
+    }
+
+    .signup-btn {
+        border-radius: 8px;
+        background-color: #3882F6;
+        color: white;
+        padding: 8px 20px; 
+        border: none; 
+        font-weight: bold;
     }
 
 header h1, ul, .information h3 {
@@ -30,7 +40,7 @@ header h1, ul, .information h3 {
         background-color: orange;
     }
 
-    img {
+    .header img {
         height: 100%;
     }
 
@@ -39,11 +49,30 @@ header h1, ul, .information h3 {
     flex: 1;
 }
 
+    .information h3 {
+        text-align: center;
+    }
+
+    .information img {
+        width: 100%;
+    }
+
     .information .container {
         display: flex;
+        justify-content: center;
+        gap: 50px;
     }
+
+    .info-card {
+        text-align: center;
+        width: 200px;
+    }
+
+    
 
 footer {
     background-color: rgb(175, 223, 175);
     margin-top: auto;
 }
+
+/* border: 2px dotted red; */
