@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 header {
@@ -13,34 +14,52 @@ header {
     align-items: center;
 }
 
-    nav a {
-        text-decoration: none;
-    }
+nav a {
+    text-decoration: none;
+}
 
-    .signup-btn {
-        border-radius: 8px;
-        background-color: #3882F6;
-        color: white;
-        padding: 8px 20px; 
-        border: none; 
-        font-weight: bold;
-    }
+.signup-btn {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 115%;
+}
 
-header h1, ul, .information h3 {
-    margin: 0;
+header, .header, .information, .quote, .signup-container {
+    padding: 0 10%;
 }
 
 .header {
-    background-color: rgb(255, 227, 176);
+    background-color: #1F2937;
     display: flex;
-    flex: 1;
+    gap: 2%;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
+    h2 {
+        font-size: 48px;
+        font-weight: extra-bold;
+        margin: 0;
+        color: #F9FAF8;
+    }
+
+    .header p {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
     .header .headercontainer {
-        background-color: orange;
+        flex: 1;
     }
 
     .header img {
+        flex: 1;
+        width: 100%;
         height: 100%;
     }
 
@@ -49,26 +68,41 @@ header h1, ul, .information h3 {
     flex: 1;
 }
 
-    .information h3 {
-        text-align: center;
-    }
+.information h3 {
+    text-align: center;
+}
 
-    .information img {
-        width: 100%;
-    }
+.information img {
+    width: 100%;
+}
 
-    .information .container {
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-    }
+.information .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
-    .info-card {
-        text-align: center;
-        width: 200px;
-    }
+.info-card {
+    text-align: center;
+    width: 200px;
+}
 
-    
+.quote {
+    background-color: rgb(255, 227, 176);
+}
+
+.signup-container {
+    background-color: rgb(255, 255, 195);
+}
+
+.signup-card {
+    background-color: #3882f6;
+}
+
+.signup-card .signup-btn {
+    border: 2px solid white;
+    background-color: transparent;
+}
 
 footer {
     background-color: rgb(175, 223, 175);
@@ -76,3 +110,6 @@ footer {
 }
 
 /* border: 2px dotted red; */
+
+/* TO DO: separate all sections that have the same top and bottom paddings,
+Add to left and right paddings*/
